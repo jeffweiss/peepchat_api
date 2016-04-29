@@ -8,7 +8,6 @@ use Mix.Config
 # with brunch.io to recompile .js and .css sources.
 config :peepchat, Peepchat.Endpoint,
   http: [port: 4000],
-  debug_errors: true,
   code_reloader: true,
   check_origin: false,
   watchers: []
@@ -24,7 +23,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :peepchat, Peepchat.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "jeff",
   password: "postgres",
   database: "peepchat_dev",
   hostname: "localhost",
