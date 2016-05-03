@@ -32,7 +32,7 @@ defmodule Peepchat.Web do
 
       alias Peepchat.Repo
       import Ecto
-      import Ecto.Query, only: [from: 1, from: 2]
+      import Ecto.Query, only: [from: 1, from: 2, where: 2]
 
       import Peepchat.Router.Helpers
       import Peepchat.Gettext
